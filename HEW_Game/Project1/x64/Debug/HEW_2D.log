@@ -1,0 +1,130 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+﻿C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1101,5): warning MSB8027: SceneManager.cpp という名前の複数のファイルでは、同じ場所に出力が生成されます。これにより、不適切なビルド結果が生じる可能性があります。関連するファイルは Framework\SceneManager\SceneManager.cpp, Game\SceneManager\SceneManager.cpp です。
+  IComponent.cpp
+<<<<<<< HEAD
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Component\IComponent\IComponent.cpp(26,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Transform.cpp
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Component\TransForm\Transform.cpp(42,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  TransformComponent.cpp
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Component\Transform\TransformComponent.cpp(4,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  D3D11.cpp
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\D3D11\D3D11.cpp(406,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Input.cpp
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Input\Input.cpp(126,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  SceneManager.cpp
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\SceneManager\SceneManager.cpp(45,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  IScene.cpp
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Scene\IScene.cpp(11,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  sound.cpp
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Sound\sound.cpp(13,1): warning C4005: 'fourccRIFF': マクロが再定義されました。
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Sound\sound.cpp(5,1): message : 'fourccRIFF' の以前の定義を確認してください
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Sound\sound.cpp(14,1): warning C4005: 'fourccDATA': マクロが再定義されました。
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Sound\sound.cpp(6,1): message : 'fourccDATA' の以前の定義を確認してください
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Sound\sound.cpp(15,1): warning C4005: 'fourccFMT': マクロが再定義されました。
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Sound\sound.cpp(7,1): message : 'fourccFMT' の以前の定義を確認してください
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Sound\sound.cpp(16,1): warning C4005: 'fourccWAVE': マクロが再定義されました。
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Sound\sound.cpp(8,1): message : 'fourccWAVE' の以前の定義を確認してください
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Sound\sound.cpp(17,1): warning C4005: 'fourccXWMA': マクロが再定義されました。
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Sound\sound.cpp(9,1): message : 'fourccXWMA' の以前の定義を確認してください
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Sound\sound.cpp(18,1): warning C4005: 'fourccDPDS': マクロが再定義されました。
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Sound\sound.cpp(10,1): message : 'fourccDPDS' の以前の定義を確認してください
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Sound\sound.cpp(273,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Texture.cpp
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Texture\Texture.cpp(60,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  WICTextureLoader.cpp
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\WICTextureLoader\WICTextureLoader.cpp(932,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Window.cpp
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Framework\Window\Window.cpp(304,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Game.cpp
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Game\Game\Game.cpp(68,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  GameObject.cpp
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.cpp(2,10): fatal  error C1083: プリコンパイル済みヘッダー ファイルを開けません。'x64\Debug\HEW_2D.pch':No such file or directory
+  ObjectManager.cpp
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Game\ObjectManager\ObjectManager.cpp(55,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  SceneManager.cpp
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\Game\SceneManager\SceneManager.cpp(44,1): fatal  error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  pch.cpp
+C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\HEW_2D\pch.cpp(1,10): fatal  error C1083: プリコンパイル済みヘッダー ファイルを開けません。'x64\Debug\HEW_2D.pch':No such file or directory
+  コードを生成中...
+=======
+  Transform.cpp
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Framework\Component\TransForm\Transform.cpp(25,20): error C2084: 関数 'DirectX::SimpleMath::Vector3 Transform::GetPosition(void)' は既に本体を持っています。
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Framework\Component\TransForm\Transform.cpp(17,20): message : 'GetPosition' の以前の定義を確認してください
+  TransformComponent.cpp
+  D3D11.cpp
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Framework\D3D11\D3D11.cpp(243,30): warning C4267: '初期化中': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  Input.cpp
+  SceneManager.cpp
+  IScene.cpp
+  sound.cpp
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Framework\Sound\sound.cpp(163,27): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Framework\Sound\sound.cpp(267,12): error C2084: 関数 'int Sound::SetDistance(int)' は既に本体を持っています。
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Framework\Sound\sound.cpp(257,12): message : 'SetDistance' の以前の定義を確認してください
+  Texture.cpp
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Framework\Texture\Texture.cpp(36,15): error C2065: 'm_pDevice': 定義されていない識別子です。
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Framework\Texture\Texture.cpp(40,43): error C2065: 'm_pDevice': 定義されていない識別子です。
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Framework\Texture\Texture.cpp(40,54): error C2065: 'm_pDeviceContext': 定義されていない識別子です。
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Framework\Texture\Texture.cpp(52,12): error C2039: 'Getpo': 'Transform' のメンバーではありません
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Framework\Component\Transform\Transform.h(22,7): message : 'Transform' の宣言を確認してください
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Framework\Texture\Texture.cpp(53,1): error C2143: 構文エラー: ';' が '}' の前にありません。
+  WICTextureLoader.cpp
+  Window.cpp
+  Game.cpp
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Game\Game.cpp(7,9): error C2039: 'SetPos': 'GameObject' のメンバーではありません
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.h(29,7): message : 'GameObject' の宣言を確認してください
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Game\Game.cpp(8,9): error C2039: 'SetSize': 'GameObject' のメンバーではありません
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.h(29,7): message : 'GameObject' の宣言を確認してください
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Game\Game.cpp(9,9): error C2039: 'SetAngle': 'GameObject' のメンバーではありません
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.h(29,7): message : 'GameObject' の宣言を確認してください
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Game\Game.cpp(10,8): error C2660: 'GameObject::SetColor': 関数に 4 個の引数を指定できません。
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.h(71,7): message : 'GameObject::SetColor' の宣言を確認してください
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Game\Game.cpp(10,8): message : 引数リスト '(float, float, float, float)' を一致させようとしているとき
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Game\Game.cpp(13,13): error C2039: 'SetPos': 'GameObject' のメンバーではありません
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.h(29,7): message : 'GameObject' の宣言を確認してください
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Game\Game.cpp(14,13): error C2039: 'SetSize': 'GameObject' のメンバーではありません
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.h(29,7): message : 'GameObject' の宣言を確認してください
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Game\Game.cpp(15,13): error C2039: 'SetAngle': 'GameObject' のメンバーではありません
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.h(29,7): message : 'GameObject' の宣言を確認してください
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Game\Game.cpp(24,9): error C2039: 'numU': 'GameObject' のメンバーではありません
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.h(29,7): message : 'GameObject' の宣言を確認してください
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Game\Game.cpp(25,13): error C2039: 'numU': 'GameObject' のメンバーではありません
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.h(29,7): message : 'GameObject' の宣言を確認してください
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Game\Game.cpp(26,10): error C2039: 'numU': 'GameObject' のメンバーではありません
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.h(29,7): message : 'GameObject' の宣言を確認してください
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Game\Game.cpp(28,33): error C2039: 'GetPos': 'GameObject' のメンバーではありません
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.h(29,7): message : 'GameObject' の宣言を確認してください
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Game\Game.cpp(49,9): error C2039: 'SetPos': 'GameObject' のメンバーではありません
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.h(29,7): message : 'GameObject' の宣言を確認してください
+  GameObject.cpp
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.cpp(6,14): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.cpp(7,14): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+  ObjectManager.cpp
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\ObjectManager\ObjectManager.cpp(32,15): error C2039: 'Update': 'GameObject' のメンバーではありません
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.h(29,7): message : 'GameObject' の宣言を確認してください
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\ObjectManager\ObjectManager.cpp(34,19): error C2039: 'GetPos': 'GameObject' のメンバーではありません
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.h(29,7): message : 'GameObject' の宣言を確認してください
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\ObjectManager\ObjectManager.cpp(34,64): error C2039: 'GetPos': 'GameObject' のメンバーではありません
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.h(29,7): message : 'GameObject' の宣言を確認してください
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\ObjectManager\ObjectManager.cpp(35,16): error C2039: 'GetPos': 'GameObject' のメンバーではありません
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.h(29,7): message : 'GameObject' の宣言を確認してください
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\ObjectManager\ObjectManager.cpp(35,62): error C2039: 'GetPos': 'GameObject' のメンバーではありません
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\Objcet\GameObject.h(29,7): message : 'GameObject' の宣言を確認してください
+  SceneManager.cpp
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\SceneManager\SceneManager.h(38,41): error C2079: 'SceneManager::scenes' が 未定義の class 'std::array<std::unique_ptr<IScene,std::default_delete<IScene>>,3>' で使用しています。
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Game\SceneManager\SceneManager.cpp(2,10): fatal  error C1083: include ファイルを開けません。'../../Game/Scene/TitleScene.h':No such file or directory
+  コードを生成中...
+C:\Users\kuluk\OneDrive\デスクトップ\HEW-Game\HEW_2D\HEW_2D\Framework\Window\Window.cpp(84): warning C4715: 'Window::Init': 値を返さないコントロール パスがあります。
+>>>>>>> c18ec40d02bbcc93ab399e4036a21f857ba308be
+=======
+=======
+>>>>>>> parent of c18ec40 (pch.hの削除とmain.hをすべてにinclude)
+﻿  compilation object save succeeded; see C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\x64\Debug\PixelShader.cso
+  compilation object save succeeded; see C:\Users\caram\Documents\GitHub\HEW-Game\HEW_2D\x64\Debug\VertexShader.cso
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1101,5): warning MSB8027: SceneManager.cpp という名前の複数のファイルでは、同じ場所に出力が生成されます。これにより、不適切なビルド結果が生じる可能性があります。関連するファイルは Framework\SceneManager\SceneManager.cpp, Game\SceneManager\SceneManager.cpp です。
+  pch.cpp
+c1xx : fatal  error C1083: ソース ファイルを開けません。'Framework\Precompiled\pch.cpp':No such file or directory
+<<<<<<< HEAD
+>>>>>>> parent of cecf57c (調整中)
+=======
+>>>>>>> parent of c18ec40 (pch.hの削除とmain.hをすべてにinclude)

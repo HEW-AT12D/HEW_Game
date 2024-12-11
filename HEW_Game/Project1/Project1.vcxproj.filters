@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル\Shader">
+      <UniqueIdentifier>{00695656-9beb-40d8-a534-b4d199aa0288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Framework">
+      <UniqueIdentifier>{3db0a30c-a9d2-431f-9631-aedb1d49dc49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Framework\Component">
+      <UniqueIdentifier>{37267a10-b684-4757-a805-25ebc2574d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Framework\ConmponentManager">
+      <UniqueIdentifier>{ff1fdd6a-2d53-4b7f-82e9-322b8b1b737b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Framework\D3D11">
+      <UniqueIdentifier>{b1532991-9e7c-48d2-8232-2162529c28b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Framework\directxtk">
+      <UniqueIdentifier>{dd9c2d5c-eeb2-4430-9cf6-b51ff3937459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Framework\Input">
+      <UniqueIdentifier>{7d5f34da-fa5f-4cfb-92e7-690039c8b157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Framework\Scene">
+      <UniqueIdentifier>{fecdf75f-cf03-4a72-89d0-f2e6c7bec3cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Framework\SceneManager">
+      <UniqueIdentifier>{0b1cbf8f-ff95-4ad5-b6ed-1d11cb826cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Framework\Sound">
+      <UniqueIdentifier>{cf5cb242-ebef-4cd8-9af6-2cf26741e37e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Framework\Texture">
+      <UniqueIdentifier>{05a92c99-2059-41b0-937a-132ac01db597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Framework\WICTextureLoader">
+      <UniqueIdentifier>{e8dccf3d-1b24-4824-9ff6-c196f5bfb1c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Framework\Window">
+      <UniqueIdentifier>{c5bd9499-4d06-4801-847d-80a2d00a3fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Framework\注意点">
+      <UniqueIdentifier>{8c81c603-9326-4a0d-b007-9ddbfc7a21dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Framework\Component\IComponent">
+      <UniqueIdentifier>{6e199259-1c5b-4033-98de-27a893ccf556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Framework\Component\Transform">
+      <UniqueIdentifier>{42507dd8-5ea4-4073-848b-29b38f6bde33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Framework\directxtk\include">
+      <UniqueIdentifier>{7c956c6f-f7a8-4f31-8468-ea981cd219eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game処理">
+      <UniqueIdentifier>{77dd77d1-96e0-4629-b957-747a5fa43198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game処理\Game">
+      <UniqueIdentifier>{4fa84235-6efb-457c-9cbf-1a1c667cf810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game処理\Objcet">
+      <UniqueIdentifier>{752f5d83-d21d-48d7-b1c0-c0734fcd2c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game処理\ObjectManager">
+      <UniqueIdentifier>{77817858-546b-47ff-b275-cc288e9d32a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game処理\SceneManager">
+      <UniqueIdentifier>{5545030b-a9ca-4c05-aa5b-4c594fc1b2c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader\PixelShader.hlsl">
+      <Filter>リソース ファイル\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\VertexShader.hlsl">
+      <Filter>リソース ファイル\Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Framework\Component\IComponent\IComponent.cpp">
+      <Filter>ソース ファイル\Framework\Component\IComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Component\Transform\Transform.cpp">
+      <Filter>ソース ファイル\Framework\Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Component\Transform\TransformComponent.cpp">
+      <Filter>ソース ファイル\Framework\Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\ComponentManager\ComponentManager.cpp">
+      <Filter>ソース ファイル\Framework\ConmponentManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\D3D11\D3D11.cpp">
+      <Filter>ソース ファイル\Framework\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Input\Input.cpp">
+      <Filter>ソース ファイル\Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scene\IScene.cpp">
+      <Filter>ソース ファイル\Framework\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\SceneManager\SceneManager.cpp">
+      <Filter>ソース ファイル\Framework\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Sound\sound.cpp">
+      <Filter>ソース ファイル\Framework\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Texture\Texture.cpp">
+      <Filter>ソース ファイル\Framework\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\WICTextureLoader\WICTextureLoader.cpp">
+      <Filter>ソース ファイル\Framework\WICTextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Window\Window.cpp">
+      <Filter>ソース ファイル\Framework\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game\Game.cpp">
+      <Filter>ソース ファイル\Game処理\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objcet\GameObject.cpp">
+      <Filter>ソース ファイル\Game処理\Objcet</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ObjectManager\ObjectManager.cpp">
+      <Filter>ソース ファイル\Game処理\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SceneManager\SceneManager.cpp">
+      <Filter>ソース ファイル\Game処理\SceneManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework\Component\IComponent\IComponent.h">
+      <Filter>ソース ファイル\Framework\Component\IComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Component\Transform\Transform.h">
+      <Filter>ソース ファイル\Framework\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Component\Transform\TransformComponent.h">
+      <Filter>ソース ファイル\Framework\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\ComponentManager\ComponentManager.h">
+      <Filter>ソース ファイル\Framework\ConmponentManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\D3D11\D3D11.h">
+      <Filter>ソース ファイル\Framework\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\directxtk\include\Audio.h">
+      <Filter>ソース ファイル\Framework\directxtk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\directxtk\include\BufferHelpers.h">
+      <Filter>ソース ファイル\Framework\directxtk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\directxtk\include\CommonStates.h">
+      <Filter>ソース ファイル\Framework\directxtk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\directxtk\include\DDSTextureLoader.h">
+      <Filter>ソース ファイル\Framework\directxtk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\directxtk\include\DirectXHelpers.h">
+      <Filter>ソース ファイル\Framework\directxtk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\directxtk\include\Effects.h">
+      <Filter>ソース ファイル\Framework\directxtk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\directxtk\include\GamePad.h">
+      <Filter>ソース ファイル\Framework\directxtk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\directxtk\include\GeometricPrimitive.h">
+      <Filter>ソース ファイル\Framework\directxtk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\directxtk\include\GraphicsMemory.h">
+      <Filter>ソース ファイル\Framework\directxtk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\directxtk\include\Keyboard.h">
+      <Filter>ソース ファイル\Framework\directxtk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\directxtk\include\Model.h">
+      <Filter>ソース ファイル\Framework\directxtk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\directxtk\include\Mouse.h">
+      <Filter>ソース ファイル\Framework\directxtk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\directxtk\include\PostProcess.h">
+      <Filter>ソース ファイル\Framework\directxtk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\directxtk\include\PrimitiveBatch.h">
+      <Filter>ソース ファイル\Framework\directxtk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\directxtk\include\ScreenGrab.h">
+      <Filter>ソース ファイル\Framework\directxtk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\directxtk\include\SimpleMath.h">
+      <Filter>ソース ファイル\Framework\directxtk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Input\Input.h">
+      <Filter>ソース ファイル\Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene\IScene.h">
+      <Filter>ソース ファイル\Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\SceneManager\SceneManager.h">
+      <Filter>ソース ファイル\Framework\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Sound\sound.h">
+      <Filter>ソース ファイル\Framework\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Texture\Texture.h">
+      <Filter>ソース ファイル\Framework\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\WICTextureLoader\WICTextureLoader.h">
+      <Filter>ソース ファイル\Framework\WICTextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Window\Window.h">
+      <Filter>ソース ファイル\Framework\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game\Game.h">
+      <Filter>ソース ファイル\Game処理\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objcet\GameObject.h">
+      <Filter>ソース ファイル\Game処理\Objcet</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ObjectManager\ObjectManager.h">
+      <Filter>ソース ファイル\Game処理\ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SceneManager\SceneManager.h">
+      <Filter>ソース ファイル\Game処理\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ソース ファイル\Game処理</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Framework\directxtk\include\SimpleMath.inl">
+      <Filter>ソース ファイル\Framework\directxtk\include</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Framework\注意点\注意点・解説.txt">
+      <Filter>ソース ファイル\Framework\注意点</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: 中間ディレクトリ (x64\Debug\) に別のプロジェクト (HEW_2D.vcxproj) と共有されているファイルが含まれています。これにより、クリーンしてリビルド動作が適切に行われない可能性があります。
+FXC : error X3501: 'main': entrypoint not found
+  
+  compilation failed; no code produced
