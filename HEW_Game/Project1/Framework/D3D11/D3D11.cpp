@@ -304,7 +304,8 @@ HRESULT D3D11::CompileShader(const char* szFileName, LPCSTR szEntryPoint, LPCSTR
 		*ShaderObject = (*ppBlobOut)->GetBufferPointer();
 		ShaderObjectSize = (*ppBlobOut)->GetBufferSize();
 	}
-
+	int i;
+	i += 1;
 	delete[] csoFileName;
 	return S_OK;
 }
