@@ -311,7 +311,8 @@ HRESULT D3D11::CompileShader(const char* szFileName, LPCSTR szEntryPoint, LPCSTR
 	return S_OK;
 }
 
-
+//ok4okrk4owe
+int i;
 //////////////////////////////////
 //			シェーダー系			//
 //////////////////////////////////
